@@ -1,8 +1,8 @@
 {
-  "name": "Sizzy",
-  "version": "0.0.2",
+  "name": "Bizzy",
+  "version": "0.0.1",
   "private": true,
-  "author": "Kitze",
+  "author": "nileshtrivedi",
   "description": "A tool for testing responsive websites crazy-fast",
   "devDependencies": {
     "autoprefixer": "7.1.0",
