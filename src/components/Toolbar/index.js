@@ -36,12 +36,7 @@ class ToolbarComponent extends Component {
       <Toolbar>
 
         <ToolbarLeft>
-          <Logo
-            onClick={!loading && app.resetToHome}
-            src={LogoSvg}
-            alt="Sizzy"
-            width="70px"
-          />
+          <h1>Bizzy</h1>
           {isValidUrl && <UrlBar />}
         </ToolbarLeft>
 
@@ -50,12 +45,12 @@ class ToolbarComponent extends Component {
             <HeaderLink
               icon="github"
               text="Code"
-              link="https://github.com/kitze/sizzy"
+              link="https://github.com/nileshtrivedi/bizzy"
             />
             <HeaderLink
               icon="twitter"
               text="Follow"
-              link="https://twitter.com/sizzyapp"
+              link="https://twitter.com/polyglot_devs"
             />
             <HeaderLink
               icon="question-circle"
@@ -64,24 +59,9 @@ class ToolbarComponent extends Component {
               router={router}
             />
             <HeaderLink
-              icon="money"
-              text="Support"
-              link="https://opencollective.com/sizzy"
-            />
-            <HeaderLink
-              icon="book"
-              text="Story"
-              link="https://medium.com/@kitze/introducing-sizzy-a-tool-for-developing-responsive-websites-crazy-fast-39a8c0061992"
-            />
-            <HeaderLink
-              icon="video-camera"
-              text="Coding"
-              link="https://www.youtube.com/playlist?list=PLeRG3Z4BGWXR1yE8176LxtAj0Xyb_VI7L"
-            />
-            <HeaderLink
               icon="chrome"
               text="Extension"
-              link="https://chrome.google.com/webstore/detail/sizzy/nfhlbmjiiogoelaflfclodlkncbdiefo"
+              link="https://chrome.google.com/webstore/detail/bizzy/nfhlbmjiiogoelaflfclodlkncbdiefo"
             />
           </ToolbarRight>}
 

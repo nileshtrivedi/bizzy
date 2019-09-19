@@ -61,7 +61,7 @@ class WelcomeBoxComponent extends Component {
 
         <Content show={showWelcomeContent}>
 
-          <IntroText> Welcome to Sizzy! Enter an url to start: </IntroText>
+          <IntroText> Welcome to Bizzy! Enter an url to start: </IntroText>
 
           <MobileText>
             A developer tool for testing responsive design on multiple devices
@@ -79,14 +79,12 @@ class WelcomeBoxComponent extends Component {
           <ExampleLink onClick={app.loadExampleUrl}>
             Click here to load an example!
           </ExampleLink>
-
-          {!window.isElectron && <ChromeExtensionLink />}
         </Content>
 
         {!loading &&
           !window.isElectron &&
-          <MadeBy target="_blank" href="https://kitze.io">
-            made by @thekitze
+          <MadeBy target="_blank" href="https://nilesh.trivedi.pw">
+            made by @nileshtrivedi
           </MadeBy>}
       </WelcomeBox>
     );

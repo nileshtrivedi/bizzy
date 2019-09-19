@@ -221,7 +221,7 @@ class AppStore {
   @action loadExampleUrl = () => {
     const exampleUrl = `${window.isElectron
       ? 'http:'
-      : window.location.protocol}//kitze.io`;
+      : window.location.protocol}//example.com`;
     this.setUrl(exampleUrl);
     this.setUrltoLoad(exampleUrl, false, true);
   };
