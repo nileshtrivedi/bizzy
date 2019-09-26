@@ -81,11 +81,6 @@ class WelcomeBoxComponent extends Component {
           </ExampleLink>
         </Content>
 
-        {!loading &&
-          !window.isElectron &&
-          <MadeBy target="_blank" href="https://nilesh.trivedi.pw">
-            made by @nileshtrivedi
-          </MadeBy>}
       </WelcomeBox>
     );
   }
