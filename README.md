@@ -2,6 +2,8 @@
 
 A tool for developing responsive websites crazy-fast, based on old webapp versoin of Sizzy
 
+This is not being developed any more because we now have open-source projects like [Responsively.app](https://responsively.app).
+
 ---
 
 ![gif](http://i.imgur.com/BtyqVle.gif)
@@ -10,11 +12,6 @@ A tool for developing responsive websites crazy-fast, based on old webapp versoi
 Add ```?url=http://your-url.com``` at the end of the url to share it with a preloaded url.
 
 Example: <a href="http://bizzy.polyglot.network?url=https://preactjs.com" target="_blank">http://bizzy.polyglot.network?url=https://preactjs.com</a>
-
-## Chrome extension
-Adds a Bizzy button in the Chrome toolbar, which on click opens any page directly into Bizzy.
-
-Chrome Store: coming soon, [Source](https://github.com/nileshtrivedi/bizzy/tree/master/chrome-extension)
 
 ## Getting Started
 
